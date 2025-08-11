@@ -1,29 +1,56 @@
 {
   "expo": {
-    "name": "1XBetSortTrivia",
-    "slug": "1XBetSortTrivia",
+    "name": "1 X BET Sport Trivia",
+    "slug": "1xbet-sport-trivia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1a1a1a"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "buildNumber": "1",
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.onexbet.sporttrivia",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIDeviceFamily": [
+          1
+        ],
+        "UIRequiredDeviceCapabilities": [
+          "telephony"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#1a1a1a"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.onexbet.sporttrivia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/[your-project-id]"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "71392f33-9922-4964-a1c0-99f6be183799"
+      }
+    },
+    "owner": "andrei_g"
   }
 }
