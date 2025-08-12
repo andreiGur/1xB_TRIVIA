@@ -70,8 +70,8 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
 
           {/* App Title */}
           <View style={styles.titleContainer}>
-            <Text style={styles.title}>1 X BET</Text>
-            <Text style={styles.subtitle}>Sport Trivia</Text>
+            <Text style={styles.title}>1 X Trivia</Text>
+            <Text style={styles.subtitle}>Sports & Records</Text>
           </View>
 
           {/* Loading Animation */}

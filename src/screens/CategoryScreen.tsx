@@ -37,7 +37,7 @@ const CategoryScreen: React.FC<CategoryScreenProps> = ({ navigation }) => {
       >
         <View style={styles.header}>
           <View style={styles.titleContainer}>
-            <Text style={styles.title}>1 X BET Sport Trivia</Text>
+            <Text style={styles.title}>1 X Trivia Sport </Text>
             <Text style={styles.subtitle}>Choose a Sports Category</Text>
           </View>
         </View>

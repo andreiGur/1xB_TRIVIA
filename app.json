@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "1 X BET Sport Trivia",
-    "slug": "1xbet-sport-trivia",
+    "name": "1 X Trivia",
+    "slug": "1x-trivia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -32,7 +32,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#1a1a1a"
       },
       "package": "com.onexbet.sporttrivia"
@@ -43,12 +43,10 @@
     "updates": {
       "url": "https://u.expo.dev/[your-project-id]"
     },
-    "runtimeVersion": {
-      "policy": "sdkVersion"
-    },
+    "runtimeVersion": "1.0.0",
     "extra": {
       "eas": {
-        "projectId": "71392f33-9922-4964-a1c0-99f6be183799"
+        "projectId": "61f9aca8-b8a9-40b3-b417-94275eb9112b"
       }
     },
     "owner": "andrei_g"

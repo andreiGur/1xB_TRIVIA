@@ -7,7 +7,7 @@ import CategoryScreen from './src/screens/CategoryScreen';
 import QuizScreen from './src/screens/QuizScreen';
 import ResultsScreen from './src/screens/ResultsScreen';
 import GuinnessScreen from './src/screens/GuinnessScreen';
-import { SafeAreaView, ActivityIndicator, View } from 'react-native';
+import { SafeAreaView } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { useCheckUpdates } from './src/hooks/checkUpdates';
@@ -43,14 +43,6 @@ export default function App() {
       // Fonts are loaded or there was an error
     }
   }, [fontsLoaded, fontError]);
-
-  if (!fontsLoaded && !fontError) {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#1a1a1a' }}>
-        <ActivityIndicator size="large" color="#ffffff" />
-      </View>
-    );
-  }
 
   return (
     <SafeAreaProvider>
